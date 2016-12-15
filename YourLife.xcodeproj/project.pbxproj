@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		549BB54F1DF8FA3500C6A346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB54E1DF8FA3500C6A346 /* AppDelegate.swift */; };
-		549BB5511DF8FA3500C6A346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB5501DF8FA3500C6A346 /* ViewController.swift */; };
 		549BB5541DF8FA3500C6A346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549BB5521DF8FA3500C6A346 /* Main.storyboard */; };
 		549BB5561DF8FA3500C6A346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549BB5551DF8FA3500C6A346 /* Assets.xcassets */; };
 		549BB5591DF8FA3500C6A346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549BB5571DF8FA3500C6A346 /* LaunchScreen.storyboard */; };
+		549BB5661DF8FACF00C6A346 /* LifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB5651DF8FACF00C6A346 /* LifeViewController.swift */; };
+		549BB5681DF8FAEE00C6A346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB5671DF8FAEE00C6A346 /* LoginViewController.swift */; };
+		549BB56C1DF9046F00C6A346 /* FoodPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB56B1DF9046F00C6A346 /* FoodPlace.swift */; };
+		549BB5761DF9059D00C6A346 /* SomeWhereToLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB5751DF9059D00C6A346 /* SomeWhereToLove.swift */; };
+		549BB5781DF905EE00C6A346 /* LiveStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB5771DF905EE00C6A346 /* LiveStreamViewController.swift */; };
+		549BB57A1DF9061A00C6A346 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB5791DF9061A00C6A346 /* BlogViewController.swift */; };
+		549BB57C1DF9068300C6A346 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB57B1DF9068300C6A346 /* TwitterClient.swift */; };
+		549BB57E1DF906A400C6A346 /* FacebookClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB57D1DF906A400C6A346 /* FacebookClient.swift */; };
+		549BB5801DF906C200C6A346 /* GooglePlusClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB57F1DF906C200C6A346 /* GooglePlusClient.swift */; };
+		549BB5821DF9125300C6A346 /* TinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549BB5811DF9125300C6A346 /* TinderViewController.swift */; };
+		54A5F7B01DF936BA003EA2C9 /* ChatChitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5F7AF1DF936BA003EA2C9 /* ChatChitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		549BB54B1DF8FA3500C6A346 /* YourLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		549BB54E1DF8FA3500C6A346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		549BB5501DF8FA3500C6A346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		549BB5531DF8FA3500C6A346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		549BB5551DF8FA3500C6A346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		549BB5581DF8FA3500C6A346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		549BB55A1DF8FA3500C6A346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549BB5651DF8FACF00C6A346 /* LifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeViewController.swift; sourceTree = "<group>"; };
+		549BB5671DF8FAEE00C6A346 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		549BB56B1DF9046F00C6A346 /* FoodPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodPlace.swift; path = Model/FoodPlace.swift; sourceTree = "<group>"; };
+		549BB5751DF9059D00C6A346 /* SomeWhereToLove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SomeWhereToLove.swift; path = Model/SomeWhereToLove.swift; sourceTree = "<group>"; };
+		549BB5771DF905EE00C6A346 /* LiveStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveStreamViewController.swift; sourceTree = "<group>"; };
+		549BB5791DF9061A00C6A346 /* BlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		549BB57B1DF9068300C6A346 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		549BB57D1DF906A400C6A346 /* FacebookClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookClient.swift; sourceTree = "<group>"; };
+		549BB57F1DF906C200C6A346 /* GooglePlusClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlusClient.swift; sourceTree = "<group>"; };
+		549BB5811DF9125300C6A346 /* TinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderViewController.swift; sourceTree = "<group>"; };
+		54A5F7AF1DF936BA003EA2C9 /* ChatChitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatChitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,83 @@
 		549BB54D1DF8FA3500C6A346 /* YourLife */ = {
 			isa = PBXGroup;
 			children = (
+				549BB5611DF8FA9D00C6A346 /* API */,
+				549BB5631DF8FA9D00C6A346 /* View */,
+				549BB5641DF8FA9D00C6A346 /* ViewController */,
+				549BB5601DF8FA4D00C6A346 /* Model */,
 				549BB54E1DF8FA3500C6A346 /* AppDelegate.swift */,
-				549BB5501DF8FA3500C6A346 /* ViewController.swift */,
 				549BB5521DF8FA3500C6A346 /* Main.storyboard */,
 				549BB5551DF8FA3500C6A346 /* Assets.xcassets */,
 				549BB5571DF8FA3500C6A346 /* LaunchScreen.storyboard */,
 				549BB55A1DF8FA3500C6A346 /* Info.plist */,
 			);
 			path = YourLife;
+			sourceTree = "<group>";
+		};
+		549BB5601DF8FA4D00C6A346 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				549BB5701DF9050C00C6A346 /* Facebook */,
+				549BB5711DF9050C00C6A346 /* GooglePlus */,
+				549BB5721DF9050C00C6A346 /* Twitter */,
+				549BB56B1DF9046F00C6A346 /* FoodPlace.swift */,
+				549BB5751DF9059D00C6A346 /* SomeWhereToLove.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		549BB5611DF8FA9D00C6A346 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				549BB57B1DF9068300C6A346 /* TwitterClient.swift */,
+				549BB57D1DF906A400C6A346 /* FacebookClient.swift */,
+				549BB57F1DF906C200C6A346 /* GooglePlusClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		549BB5631DF8FA9D00C6A346 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		549BB5641DF8FA9D00C6A346 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				549BB5651DF8FACF00C6A346 /* LifeViewController.swift */,
+				549BB5671DF8FAEE00C6A346 /* LoginViewController.swift */,
+				549BB5771DF905EE00C6A346 /* LiveStreamViewController.swift */,
+				549BB5791DF9061A00C6A346 /* BlogViewController.swift */,
+				549BB5811DF9125300C6A346 /* TinderViewController.swift */,
+				54A5F7AF1DF936BA003EA2C9 /* ChatChitViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		549BB5701DF9050C00C6A346 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Facebook;
+			path = Model/Facebook;
+			sourceTree = "<group>";
+		};
+		549BB5711DF9050C00C6A346 /* GooglePlus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GooglePlus;
+			path = Model/GooglePlus;
+			sourceTree = "<group>";
+		};
+		549BB5721DF9050C00C6A346 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Twitter;
+			path = Model/Twitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +225,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				549BB5511DF8FA3500C6A346 /* ViewController.swift in Sources */,
+				549BB57C1DF9068300C6A346 /* TwitterClient.swift in Sources */,
+				549BB5821DF9125300C6A346 /* TinderViewController.swift in Sources */,
+				549BB5681DF8FAEE00C6A346 /* LoginViewController.swift in Sources */,
+				549BB56C1DF9046F00C6A346 /* FoodPlace.swift in Sources */,
+				549BB5761DF9059D00C6A346 /* SomeWhereToLove.swift in Sources */,
+				549BB57E1DF906A400C6A346 /* FacebookClient.swift in Sources */,
+				549BB5661DF8FACF00C6A346 /* LifeViewController.swift in Sources */,
+				549BB5781DF905EE00C6A346 /* LiveStreamViewController.swift in Sources */,
+				549BB5801DF906C200C6A346 /* GooglePlusClient.swift in Sources */,
 				549BB54F1DF8FA3500C6A346 /* AppDelegate.swift in Sources */,
+				54A5F7B01DF936BA003EA2C9 /* ChatChitViewController.swift in Sources */,
+				549BB57A1DF9061A00C6A346 /* BlogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +398,7 @@
 				549BB55F1DF8FA3500C6A346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
